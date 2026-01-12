@@ -109,3 +109,4 @@ dist/icons
 .vscode-test
 
 sample
+.DS_Store
