@@ -1,6 +1,8 @@
 export type NoniconsId =
   | "accessibility-16"
   | "accessibility-inset-16"
+  | "agent-16"
+  | "ai-model-16"
   | "alert-16"
   | "alert-fill-16"
   | "angular-16"
@@ -26,7 +28,11 @@ export type NoniconsId =
   | "bold-16"
   | "book-16"
   | "bookmark-16"
+  | "bookmark-filled-16"
   | "bookmark-slash-16"
+  | "bookmark-slash-fill-16"
+  | "boolean-off-16"
+  | "boolean-on-16"
   | "briefcase-16"
   | "broadcast-16"
   | "browser-16"
@@ -41,6 +47,7 @@ export type NoniconsId =
   | "check-circle-16"
   | "check-circle-fill-16"
   | "checkbox-16"
+  | "checkbox-fill-16"
   | "checklist-16"
   | "chevron-down-16"
   | "chevron-left-16"
@@ -64,7 +71,9 @@ export type NoniconsId =
   | "columns-16"
   | "command-palette-16"
   | "comment-16"
+  | "comment-ai-16"
   | "comment-discussion-16"
+  | "compose-16"
   | "constant-16"
   | "container-16"
   | "copilot-16"
@@ -74,6 +83,7 @@ export type NoniconsId =
   | "cpu-16"
   | "credit-card-16"
   | "cross-reference-16"
+  | "crosshairs-16"
   | "css-16"
   | "dart-16"
   | "dash-16"
@@ -86,6 +96,7 @@ export type NoniconsId =
   | "device-mobile-16"
   | "devices-16"
   | "diamond-16"
+  | "dice-16"
   | "diff-16"
   | "diff-added-16"
   | "diff-ignored-16"
@@ -105,13 +116,23 @@ export type NoniconsId =
   | "elm-16"
   | "error-16"
   | "eslint-16"
+  | "exclamation-16"
   | "eye-16"
   | "eye-closed-16"
   | "feed-discussion-16"
   | "feed-forked-16"
   | "feed-heart-16"
+  | "feed-issue-closed-16"
+  | "feed-issue-draft-16"
+  | "feed-issue-open-16"
+  | "feed-issue-reopen-16"
   | "feed-merged-16"
   | "feed-person-16"
+  | "feed-plus-16"
+  | "feed-public-16"
+  | "feed-pull-request-closed-16"
+  | "feed-pull-request-draft-16"
+  | "feed-pull-request-open-16"
   | "feed-repo-16"
   | "feed-rocket-16"
   | "feed-star-16"
@@ -122,25 +143,32 @@ export type NoniconsId =
   | "file-added-16"
   | "file-badge-16"
   | "file-binary-16"
+  | "file-check-16"
   | "file-code-16"
   | "file-diff-16"
   | "file-directory-16"
   | "file-directory-fill-16"
   | "file-directory-open-fill-16"
+  | "file-directory-symlink-16"
+  | "file-media-16"
   | "file-moved-16"
   | "file-removed-16"
   | "file-submodule-16"
   | "file-symlink-file-16"
   | "file-zip-16"
   | "filter-16"
+  | "filter-remove-16"
   | "fiscal-host-16"
   | "flame-16"
+  | "flowchart-16"
+  | "focus-center-16"
   | "fold-16"
   | "fold-down-16"
   | "fold-up-16"
   | "gear-16"
   | "gift-16"
   | "git-branch-16"
+  | "git-branch-check-16"
   | "git-commit-16"
   | "git-compare-16"
   | "git-merge-16"
@@ -153,6 +181,8 @@ export type NoniconsId =
   | "goal-16"
   | "grabber-16"
   | "graph-16"
+  | "graph-bar-horizontal-16"
+  | "graph-bar-vertical-16"
   | "graphql-16"
   | "hash-16"
   | "heading-16"
@@ -160,6 +190,7 @@ export type NoniconsId =
   | "heart-fill-16"
   | "history-16"
   | "home-16"
+  | "home-fill-16"
   | "horizontal-rule-16"
   | "hourglass-16"
   | "html-16"
@@ -167,6 +198,7 @@ export type NoniconsId =
   | "id-badge-16"
   | "image-16"
   | "inbox-16"
+  | "inbox-fill-16"
   | "infinity-16"
   | "info-16"
   | "interface-16"
@@ -202,14 +234,18 @@ export type NoniconsId =
   | "log-16"
   | "logo-gist-16"
   | "logo-github-16"
+  | "loop-16"
   | "lua-16"
   | "mail-16"
   | "mark-github-16"
   | "markdown-16"
+  | "maximize-16"
+  | "mcp-16"
   | "megaphone-16"
   | "mention-16"
   | "meter-16"
   | "milestone-16"
+  | "minimize-16"
   | "mirror-16"
   | "moon-16"
   | "mortar-board-16"
@@ -237,7 +273,9 @@ export type NoniconsId =
   | "paperclip-16"
   | "passkey-fill-16"
   | "paste-16"
+  | "pause-16"
   | "pencil-16"
+  | "pencil-ai-16"
   | "people-16"
   | "perl-16"
   | "person-16"
@@ -246,6 +284,7 @@ export type NoniconsId =
   | "php-16"
   | "pin-16"
   | "pin-slash-16"
+  | "pivot-column-16"
   | "play-16"
   | "plug-16"
   | "plus-16"
@@ -263,6 +302,7 @@ export type NoniconsId =
   | "r-16"
   | "react-16"
   | "read-16"
+  | "redo-16"
   | "rel-file-path-16"
   | "reply-16"
   | "repo-16"
@@ -300,12 +340,24 @@ export type NoniconsId =
   | "skip-fill-16"
   | "sliders-16"
   | "smiley-16"
+  | "smiley-frown-16"
+  | "smiley-frustrated-16"
+  | "smiley-grin-16"
+  | "smiley-neutral-16"
   | "snippet-16"
   | "sort-asc-16"
   | "sort-desc-16"
+  | "space-16"
+  | "spacing-large-16"
+  | "spacing-medium-16"
+  | "spacing-small-16"
+  | "sparkle-16"
   | "sparkle-fill-16"
+  | "sparkles-fill-16"
+  | "split-view-16"
   | "sponsor-tiers-16"
   | "square-16"
+  | "square-circle-16"
   | "square-fill-16"
   | "squirrel-16"
   | "stack-16"
@@ -319,6 +371,7 @@ export type NoniconsId =
   | "svelte-16"
   | "swift-16"
   | "sync-16"
+  | "tab-16"
   | "tab-external-16"
   | "table-16"
   | "tag-16"
@@ -334,6 +387,8 @@ export type NoniconsId =
   | "tmux-16"
   | "toml-16"
   | "tools-16"
+  | "tracked-by-closed-completed-16"
+  | "tracked-by-closed-not-planned-16"
   | "trash-16"
   | "triangle-down-16"
   | "triangle-left-16"
@@ -344,12 +399,14 @@ export type NoniconsId =
   | "type-16"
   | "typescript-16"
   | "typography-16"
+  | "undo-16"
   | "unfold-16"
   | "unlink-16"
   | "unlock-16"
   | "unmute-16"
   | "unread-16"
   | "unverified-16"
+  | "unwrap-16"
   | "upload-16"
   | "variable-16"
   | "verified-16"
@@ -367,6 +424,7 @@ export type NoniconsId =
   | "vue-16"
   | "webhook-16"
   | "workflow-16"
+  | "wrap-16"
   | "x-16"
   | "x-circle-16"
   | "x-circle-fill-16"
@@ -379,6 +437,8 @@ export type NoniconsId =
 export type NoniconsKey =
   | "Accessibility_16"
   | "AccessibilityInset_16"
+  | "Agent_16"
+  | "AiModel_16"
   | "Alert_16"
   | "AlertFill_16"
   | "Angular_16"
@@ -404,7 +464,11 @@ export type NoniconsKey =
   | "Bold_16"
   | "Book_16"
   | "Bookmark_16"
+  | "BookmarkFilled_16"
   | "BookmarkSlash_16"
+  | "BookmarkSlashFill_16"
+  | "BooleanOff_16"
+  | "BooleanOn_16"
   | "Briefcase_16"
   | "Broadcast_16"
   | "Browser_16"
@@ -419,6 +483,7 @@ export type NoniconsKey =
   | "CheckCircle_16"
   | "CheckCircleFill_16"
   | "Checkbox_16"
+  | "CheckboxFill_16"
   | "Checklist_16"
   | "ChevronDown_16"
   | "ChevronLeft_16"
@@ -442,7 +507,9 @@ export type NoniconsKey =
   | "Columns_16"
   | "CommandPalette_16"
   | "Comment_16"
+  | "CommentAi_16"
   | "CommentDiscussion_16"
+  | "Compose_16"
   | "Constant_16"
   | "Container_16"
   | "Copilot_16"
@@ -452,6 +519,7 @@ export type NoniconsKey =
   | "Cpu_16"
   | "CreditCard_16"
   | "CrossReference_16"
+  | "Crosshairs_16"
   | "Css_16"
   | "Dart_16"
   | "Dash_16"
@@ -464,6 +532,7 @@ export type NoniconsKey =
   | "DeviceMobile_16"
   | "Devices_16"
   | "Diamond_16"
+  | "Dice_16"
   | "Diff_16"
   | "DiffAdded_16"
   | "DiffIgnored_16"
@@ -483,13 +552,23 @@ export type NoniconsKey =
   | "Elm_16"
   | "Error_16"
   | "Eslint_16"
+  | "Exclamation_16"
   | "Eye_16"
   | "EyeClosed_16"
   | "FeedDiscussion_16"
   | "FeedForked_16"
   | "FeedHeart_16"
+  | "FeedIssueClosed_16"
+  | "FeedIssueDraft_16"
+  | "FeedIssueOpen_16"
+  | "FeedIssueReopen_16"
   | "FeedMerged_16"
   | "FeedPerson_16"
+  | "FeedPlus_16"
+  | "FeedPublic_16"
+  | "FeedPullRequestClosed_16"
+  | "FeedPullRequestDraft_16"
+  | "FeedPullRequestOpen_16"
   | "FeedRepo_16"
   | "FeedRocket_16"
   | "FeedStar_16"
@@ -500,25 +579,32 @@ export type NoniconsKey =
   | "FileAdded_16"
   | "FileBadge_16"
   | "FileBinary_16"
+  | "FileCheck_16"
   | "FileCode_16"
   | "FileDiff_16"
   | "FileDirectory_16"
   | "FileDirectoryFill_16"
   | "FileDirectoryOpenFill_16"
+  | "FileDirectorySymlink_16"
+  | "FileMedia_16"
   | "FileMoved_16"
   | "FileRemoved_16"
   | "FileSubmodule_16"
   | "FileSymlinkFile_16"
   | "FileZip_16"
   | "Filter_16"
+  | "FilterRemove_16"
   | "FiscalHost_16"
   | "Flame_16"
+  | "Flowchart_16"
+  | "FocusCenter_16"
   | "Fold_16"
   | "FoldDown_16"
   | "FoldUp_16"
   | "Gear_16"
   | "Gift_16"
   | "GitBranch_16"
+  | "GitBranchCheck_16"
   | "GitCommit_16"
   | "GitCompare_16"
   | "GitMerge_16"
@@ -531,6 +617,8 @@ export type NoniconsKey =
   | "Goal_16"
   | "Grabber_16"
   | "Graph_16"
+  | "GraphBarHorizontal_16"
+  | "GraphBarVertical_16"
   | "Graphql_16"
   | "Hash_16"
   | "Heading_16"
@@ -538,6 +626,7 @@ export type NoniconsKey =
   | "HeartFill_16"
   | "History_16"
   | "Home_16"
+  | "HomeFill_16"
   | "HorizontalRule_16"
   | "Hourglass_16"
   | "Html_16"
@@ -545,6 +634,7 @@ export type NoniconsKey =
   | "IdBadge_16"
   | "Image_16"
   | "Inbox_16"
+  | "InboxFill_16"
   | "Infinity_16"
   | "Info_16"
   | "Interface_16"
@@ -580,14 +670,18 @@ export type NoniconsKey =
   | "Log_16"
   | "LogoGist_16"
   | "LogoGithub_16"
+  | "Loop_16"
   | "Lua_16"
   | "Mail_16"
   | "MarkGithub_16"
   | "Markdown_16"
+  | "Maximize_16"
+  | "Mcp_16"
   | "Megaphone_16"
   | "Mention_16"
   | "Meter_16"
   | "Milestone_16"
+  | "Minimize_16"
   | "Mirror_16"
   | "Moon_16"
   | "MortarBoard_16"
@@ -615,7 +709,9 @@ export type NoniconsKey =
   | "Paperclip_16"
   | "PasskeyFill_16"
   | "Paste_16"
+  | "Pause_16"
   | "Pencil_16"
+  | "PencilAi_16"
   | "People_16"
   | "Perl_16"
   | "Person_16"
@@ -624,6 +720,7 @@ export type NoniconsKey =
   | "Php_16"
   | "Pin_16"
   | "PinSlash_16"
+  | "PivotColumn_16"
   | "Play_16"
   | "Plug_16"
   | "Plus_16"
@@ -641,6 +738,7 @@ export type NoniconsKey =
   | "R_16"
   | "React_16"
   | "Read_16"
+  | "Redo_16"
   | "RelFilePath_16"
   | "Reply_16"
   | "Repo_16"
@@ -678,12 +776,24 @@ export type NoniconsKey =
   | "SkipFill_16"
   | "Sliders_16"
   | "Smiley_16"
+  | "SmileyFrown_16"
+  | "SmileyFrustrated_16"
+  | "SmileyGrin_16"
+  | "SmileyNeutral_16"
   | "Snippet_16"
   | "SortAsc_16"
   | "SortDesc_16"
+  | "Space_16"
+  | "SpacingLarge_16"
+  | "SpacingMedium_16"
+  | "SpacingSmall_16"
+  | "Sparkle_16"
   | "SparkleFill_16"
+  | "SparklesFill_16"
+  | "SplitView_16"
   | "SponsorTiers_16"
   | "Square_16"
+  | "SquareCircle_16"
   | "SquareFill_16"
   | "Squirrel_16"
   | "Stack_16"
@@ -697,6 +807,7 @@ export type NoniconsKey =
   | "Svelte_16"
   | "Swift_16"
   | "Sync_16"
+  | "Tab_16"
   | "TabExternal_16"
   | "Table_16"
   | "Tag_16"
@@ -712,6 +823,8 @@ export type NoniconsKey =
   | "Tmux_16"
   | "Toml_16"
   | "Tools_16"
+  | "TrackedByClosedCompleted_16"
+  | "TrackedByClosedNotPlanned_16"
   | "Trash_16"
   | "TriangleDown_16"
   | "TriangleLeft_16"
@@ -722,12 +835,14 @@ export type NoniconsKey =
   | "Type_16"
   | "Typescript_16"
   | "Typography_16"
+  | "Undo_16"
   | "Unfold_16"
   | "Unlink_16"
   | "Unlock_16"
   | "Unmute_16"
   | "Unread_16"
   | "Unverified_16"
+  | "Unwrap_16"
   | "Upload_16"
   | "Variable_16"
   | "Verified_16"
@@ -745,6 +860,7 @@ export type NoniconsKey =
   | "Vue_16"
   | "Webhook_16"
   | "Workflow_16"
+  | "Wrap_16"
   | "X_16"
   | "XCircle_16"
   | "XCircleFill_16"
@@ -757,6 +873,8 @@ export type NoniconsKey =
 export enum Nonicons {
   Accessibility_16 = "accessibility-16",
   AccessibilityInset_16 = "accessibility-inset-16",
+  Agent_16 = "agent-16",
+  AiModel_16 = "ai-model-16",
   Alert_16 = "alert-16",
   AlertFill_16 = "alert-fill-16",
   Angular_16 = "angular-16",
@@ -782,7 +900,11 @@ export enum Nonicons {
   Bold_16 = "bold-16",
   Book_16 = "book-16",
   Bookmark_16 = "bookmark-16",
+  BookmarkFilled_16 = "bookmark-filled-16",
   BookmarkSlash_16 = "bookmark-slash-16",
+  BookmarkSlashFill_16 = "bookmark-slash-fill-16",
+  BooleanOff_16 = "boolean-off-16",
+  BooleanOn_16 = "boolean-on-16",
   Briefcase_16 = "briefcase-16",
   Broadcast_16 = "broadcast-16",
   Browser_16 = "browser-16",
@@ -797,6 +919,7 @@ export enum Nonicons {
   CheckCircle_16 = "check-circle-16",
   CheckCircleFill_16 = "check-circle-fill-16",
   Checkbox_16 = "checkbox-16",
+  CheckboxFill_16 = "checkbox-fill-16",
   Checklist_16 = "checklist-16",
   ChevronDown_16 = "chevron-down-16",
   ChevronLeft_16 = "chevron-left-16",
@@ -820,7 +943,9 @@ export enum Nonicons {
   Columns_16 = "columns-16",
   CommandPalette_16 = "command-palette-16",
   Comment_16 = "comment-16",
+  CommentAi_16 = "comment-ai-16",
   CommentDiscussion_16 = "comment-discussion-16",
+  Compose_16 = "compose-16",
   Constant_16 = "constant-16",
   Container_16 = "container-16",
   Copilot_16 = "copilot-16",
@@ -830,6 +955,7 @@ export enum Nonicons {
   Cpu_16 = "cpu-16",
   CreditCard_16 = "credit-card-16",
   CrossReference_16 = "cross-reference-16",
+  Crosshairs_16 = "crosshairs-16",
   Css_16 = "css-16",
   Dart_16 = "dart-16",
   Dash_16 = "dash-16",
@@ -842,6 +968,7 @@ export enum Nonicons {
   DeviceMobile_16 = "device-mobile-16",
   Devices_16 = "devices-16",
   Diamond_16 = "diamond-16",
+  Dice_16 = "dice-16",
   Diff_16 = "diff-16",
   DiffAdded_16 = "diff-added-16",
   DiffIgnored_16 = "diff-ignored-16",
@@ -861,13 +988,23 @@ export enum Nonicons {
   Elm_16 = "elm-16",
   Error_16 = "error-16",
   Eslint_16 = "eslint-16",
+  Exclamation_16 = "exclamation-16",
   Eye_16 = "eye-16",
   EyeClosed_16 = "eye-closed-16",
   FeedDiscussion_16 = "feed-discussion-16",
   FeedForked_16 = "feed-forked-16",
   FeedHeart_16 = "feed-heart-16",
+  FeedIssueClosed_16 = "feed-issue-closed-16",
+  FeedIssueDraft_16 = "feed-issue-draft-16",
+  FeedIssueOpen_16 = "feed-issue-open-16",
+  FeedIssueReopen_16 = "feed-issue-reopen-16",
   FeedMerged_16 = "feed-merged-16",
   FeedPerson_16 = "feed-person-16",
+  FeedPlus_16 = "feed-plus-16",
+  FeedPublic_16 = "feed-public-16",
+  FeedPullRequestClosed_16 = "feed-pull-request-closed-16",
+  FeedPullRequestDraft_16 = "feed-pull-request-draft-16",
+  FeedPullRequestOpen_16 = "feed-pull-request-open-16",
   FeedRepo_16 = "feed-repo-16",
   FeedRocket_16 = "feed-rocket-16",
   FeedStar_16 = "feed-star-16",
@@ -878,25 +1015,32 @@ export enum Nonicons {
   FileAdded_16 = "file-added-16",
   FileBadge_16 = "file-badge-16",
   FileBinary_16 = "file-binary-16",
+  FileCheck_16 = "file-check-16",
   FileCode_16 = "file-code-16",
   FileDiff_16 = "file-diff-16",
   FileDirectory_16 = "file-directory-16",
   FileDirectoryFill_16 = "file-directory-fill-16",
   FileDirectoryOpenFill_16 = "file-directory-open-fill-16",
+  FileDirectorySymlink_16 = "file-directory-symlink-16",
+  FileMedia_16 = "file-media-16",
   FileMoved_16 = "file-moved-16",
   FileRemoved_16 = "file-removed-16",
   FileSubmodule_16 = "file-submodule-16",
   FileSymlinkFile_16 = "file-symlink-file-16",
   FileZip_16 = "file-zip-16",
   Filter_16 = "filter-16",
+  FilterRemove_16 = "filter-remove-16",
   FiscalHost_16 = "fiscal-host-16",
   Flame_16 = "flame-16",
+  Flowchart_16 = "flowchart-16",
+  FocusCenter_16 = "focus-center-16",
   Fold_16 = "fold-16",
   FoldDown_16 = "fold-down-16",
   FoldUp_16 = "fold-up-16",
   Gear_16 = "gear-16",
   Gift_16 = "gift-16",
   GitBranch_16 = "git-branch-16",
+  GitBranchCheck_16 = "git-branch-check-16",
   GitCommit_16 = "git-commit-16",
   GitCompare_16 = "git-compare-16",
   GitMerge_16 = "git-merge-16",
@@ -909,6 +1053,8 @@ export enum Nonicons {
   Goal_16 = "goal-16",
   Grabber_16 = "grabber-16",
   Graph_16 = "graph-16",
+  GraphBarHorizontal_16 = "graph-bar-horizontal-16",
+  GraphBarVertical_16 = "graph-bar-vertical-16",
   Graphql_16 = "graphql-16",
   Hash_16 = "hash-16",
   Heading_16 = "heading-16",
@@ -916,6 +1062,7 @@ export enum Nonicons {
   HeartFill_16 = "heart-fill-16",
   History_16 = "history-16",
   Home_16 = "home-16",
+  HomeFill_16 = "home-fill-16",
   HorizontalRule_16 = "horizontal-rule-16",
   Hourglass_16 = "hourglass-16",
   Html_16 = "html-16",
@@ -923,6 +1070,7 @@ export enum Nonicons {
   IdBadge_16 = "id-badge-16",
   Image_16 = "image-16",
   Inbox_16 = "inbox-16",
+  InboxFill_16 = "inbox-fill-16",
   Infinity_16 = "infinity-16",
   Info_16 = "info-16",
   Interface_16 = "interface-16",
@@ -958,14 +1106,18 @@ export enum Nonicons {
   Log_16 = "log-16",
   LogoGist_16 = "logo-gist-16",
   LogoGithub_16 = "logo-github-16",
+  Loop_16 = "loop-16",
   Lua_16 = "lua-16",
   Mail_16 = "mail-16",
   MarkGithub_16 = "mark-github-16",
   Markdown_16 = "markdown-16",
+  Maximize_16 = "maximize-16",
+  Mcp_16 = "mcp-16",
   Megaphone_16 = "megaphone-16",
   Mention_16 = "mention-16",
   Meter_16 = "meter-16",
   Milestone_16 = "milestone-16",
+  Minimize_16 = "minimize-16",
   Mirror_16 = "mirror-16",
   Moon_16 = "moon-16",
   MortarBoard_16 = "mortar-board-16",
@@ -993,7 +1145,9 @@ export enum Nonicons {
   Paperclip_16 = "paperclip-16",
   PasskeyFill_16 = "passkey-fill-16",
   Paste_16 = "paste-16",
+  Pause_16 = "pause-16",
   Pencil_16 = "pencil-16",
+  PencilAi_16 = "pencil-ai-16",
   People_16 = "people-16",
   Perl_16 = "perl-16",
   Person_16 = "person-16",
@@ -1002,6 +1156,7 @@ export enum Nonicons {
   Php_16 = "php-16",
   Pin_16 = "pin-16",
   PinSlash_16 = "pin-slash-16",
+  PivotColumn_16 = "pivot-column-16",
   Play_16 = "play-16",
   Plug_16 = "plug-16",
   Plus_16 = "plus-16",
@@ -1019,6 +1174,7 @@ export enum Nonicons {
   R_16 = "r-16",
   React_16 = "react-16",
   Read_16 = "read-16",
+  Redo_16 = "redo-16",
   RelFilePath_16 = "rel-file-path-16",
   Reply_16 = "reply-16",
   Repo_16 = "repo-16",
@@ -1056,12 +1212,24 @@ export enum Nonicons {
   SkipFill_16 = "skip-fill-16",
   Sliders_16 = "sliders-16",
   Smiley_16 = "smiley-16",
+  SmileyFrown_16 = "smiley-frown-16",
+  SmileyFrustrated_16 = "smiley-frustrated-16",
+  SmileyGrin_16 = "smiley-grin-16",
+  SmileyNeutral_16 = "smiley-neutral-16",
   Snippet_16 = "snippet-16",
   SortAsc_16 = "sort-asc-16",
   SortDesc_16 = "sort-desc-16",
+  Space_16 = "space-16",
+  SpacingLarge_16 = "spacing-large-16",
+  SpacingMedium_16 = "spacing-medium-16",
+  SpacingSmall_16 = "spacing-small-16",
+  Sparkle_16 = "sparkle-16",
   SparkleFill_16 = "sparkle-fill-16",
+  SparklesFill_16 = "sparkles-fill-16",
+  SplitView_16 = "split-view-16",
   SponsorTiers_16 = "sponsor-tiers-16",
   Square_16 = "square-16",
+  SquareCircle_16 = "square-circle-16",
   SquareFill_16 = "square-fill-16",
   Squirrel_16 = "squirrel-16",
   Stack_16 = "stack-16",
@@ -1075,6 +1243,7 @@ export enum Nonicons {
   Svelte_16 = "svelte-16",
   Swift_16 = "swift-16",
   Sync_16 = "sync-16",
+  Tab_16 = "tab-16",
   TabExternal_16 = "tab-external-16",
   Table_16 = "table-16",
   Tag_16 = "tag-16",
@@ -1090,6 +1259,8 @@ export enum Nonicons {
   Tmux_16 = "tmux-16",
   Toml_16 = "toml-16",
   Tools_16 = "tools-16",
+  TrackedByClosedCompleted_16 = "tracked-by-closed-completed-16",
+  TrackedByClosedNotPlanned_16 = "tracked-by-closed-not-planned-16",
   Trash_16 = "trash-16",
   TriangleDown_16 = "triangle-down-16",
   TriangleLeft_16 = "triangle-left-16",
@@ -1100,12 +1271,14 @@ export enum Nonicons {
   Type_16 = "type-16",
   Typescript_16 = "typescript-16",
   Typography_16 = "typography-16",
+  Undo_16 = "undo-16",
   Unfold_16 = "unfold-16",
   Unlink_16 = "unlink-16",
   Unlock_16 = "unlock-16",
   Unmute_16 = "unmute-16",
   Unread_16 = "unread-16",
   Unverified_16 = "unverified-16",
+  Unwrap_16 = "unwrap-16",
   Upload_16 = "upload-16",
   Variable_16 = "variable-16",
   Verified_16 = "verified-16",
@@ -1123,6 +1296,7 @@ export enum Nonicons {
   Vue_16 = "vue-16",
   Webhook_16 = "webhook-16",
   Workflow_16 = "workflow-16",
+  Wrap_16 = "wrap-16",
   X_16 = "x-16",
   XCircle_16 = "x-circle-16",
   XCircleFill_16 = "x-circle-fill-16",
@@ -1136,6 +1310,8 @@ export enum Nonicons {
 export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Accessibility_16]: "61995",
   [Nonicons.AccessibilityInset_16]: "62026",
+  [Nonicons.Agent_16]: "62080",
+  [Nonicons.AiModel_16]: "62081",
   [Nonicons.Alert_16]: "61697",
   [Nonicons.AlertFill_16]: "62027",
   [Nonicons.Angular_16]: "61698",
@@ -1161,7 +1337,11 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Bold_16]: "61710",
   [Nonicons.Book_16]: "61711",
   [Nonicons.Bookmark_16]: "61712",
+  [Nonicons.BookmarkFilled_16]: "62082",
   [Nonicons.BookmarkSlash_16]: "61713",
+  [Nonicons.BookmarkSlashFill_16]: "62083",
+  [Nonicons.BooleanOff_16]: "62084",
+  [Nonicons.BooleanOn_16]: "62085",
   [Nonicons.Briefcase_16]: "61714",
   [Nonicons.Broadcast_16]: "61715",
   [Nonicons.Browser_16]: "61716",
@@ -1176,6 +1356,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.CheckCircle_16]: "61723",
   [Nonicons.CheckCircleFill_16]: "61724",
   [Nonicons.Checkbox_16]: "62033",
+  [Nonicons.CheckboxFill_16]: "62086",
   [Nonicons.Checklist_16]: "61725",
   [Nonicons.ChevronDown_16]: "61726",
   [Nonicons.ChevronLeft_16]: "61727",
@@ -1199,7 +1380,9 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Columns_16]: "61973",
   [Nonicons.CommandPalette_16]: "62035",
   [Nonicons.Comment_16]: "61737",
+  [Nonicons.CommentAi_16]: "62087",
   [Nonicons.CommentDiscussion_16]: "61738",
+  [Nonicons.Compose_16]: "62088",
   [Nonicons.Constant_16]: "61953",
   [Nonicons.Container_16]: "61739",
   [Nonicons.Copilot_16]: "62036",
@@ -1209,6 +1392,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Cpu_16]: "61740",
   [Nonicons.CreditCard_16]: "61741",
   [Nonicons.CrossReference_16]: "61742",
+  [Nonicons.Crosshairs_16]: "62089",
   [Nonicons.Css_16]: "61743",
   [Nonicons.Dart_16]: "61744",
   [Nonicons.Dash_16]: "61745",
@@ -1221,6 +1405,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.DeviceMobile_16]: "61751",
   [Nonicons.Devices_16]: "62051",
   [Nonicons.Diamond_16]: "61974",
+  [Nonicons.Dice_16]: "62090",
   [Nonicons.Diff_16]: "61752",
   [Nonicons.DiffAdded_16]: "61753",
   [Nonicons.DiffIgnored_16]: "61754",
@@ -1240,13 +1425,23 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Elm_16]: "61763",
   [Nonicons.Error_16]: "62055",
   [Nonicons.Eslint_16]: "61981",
+  [Nonicons.Exclamation_16]: "62091",
   [Nonicons.Eye_16]: "61764",
   [Nonicons.EyeClosed_16]: "61765",
   [Nonicons.FeedDiscussion_16]: "62001",
   [Nonicons.FeedForked_16]: "62002",
   [Nonicons.FeedHeart_16]: "62003",
+  [Nonicons.FeedIssueClosed_16]: "62092",
+  [Nonicons.FeedIssueDraft_16]: "62093",
+  [Nonicons.FeedIssueOpen_16]: "62094",
+  [Nonicons.FeedIssueReopen_16]: "62095",
   [Nonicons.FeedMerged_16]: "62004",
   [Nonicons.FeedPerson_16]: "62005",
+  [Nonicons.FeedPlus_16]: "62096",
+  [Nonicons.FeedPublic_16]: "62097",
+  [Nonicons.FeedPullRequestClosed_16]: "62098",
+  [Nonicons.FeedPullRequestDraft_16]: "62099",
+  [Nonicons.FeedPullRequestOpen_16]: "62100",
   [Nonicons.FeedRepo_16]: "62006",
   [Nonicons.FeedRocket_16]: "62007",
   [Nonicons.FeedStar_16]: "62008",
@@ -1257,25 +1452,32 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.FileAdded_16]: "62039",
   [Nonicons.FileBadge_16]: "61767",
   [Nonicons.FileBinary_16]: "61768",
+  [Nonicons.FileCheck_16]: "62101",
   [Nonicons.FileCode_16]: "61769",
   [Nonicons.FileDiff_16]: "61770",
   [Nonicons.FileDirectory_16]: "61771",
   [Nonicons.FileDirectoryFill_16]: "62011",
   [Nonicons.FileDirectoryOpenFill_16]: "62012",
+  [Nonicons.FileDirectorySymlink_16]: "62102",
+  [Nonicons.FileMedia_16]: "62103",
   [Nonicons.FileMoved_16]: "62040",
   [Nonicons.FileRemoved_16]: "62041",
   [Nonicons.FileSubmodule_16]: "61773",
   [Nonicons.FileSymlinkFile_16]: "61774",
   [Nonicons.FileZip_16]: "61775",
   [Nonicons.Filter_16]: "61776",
+  [Nonicons.FilterRemove_16]: "62104",
   [Nonicons.FiscalHost_16]: "62056",
   [Nonicons.Flame_16]: "61777",
+  [Nonicons.Flowchart_16]: "62105",
+  [Nonicons.FocusCenter_16]: "62106",
   [Nonicons.Fold_16]: "61778",
   [Nonicons.FoldDown_16]: "61779",
   [Nonicons.FoldUp_16]: "61780",
   [Nonicons.Gear_16]: "61781",
   [Nonicons.Gift_16]: "61782",
   [Nonicons.GitBranch_16]: "61783",
+  [Nonicons.GitBranchCheck_16]: "62107",
   [Nonicons.GitCommit_16]: "61784",
   [Nonicons.GitCompare_16]: "61785",
   [Nonicons.GitMerge_16]: "61786",
@@ -1288,6 +1490,8 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Goal_16]: "62057",
   [Nonicons.Grabber_16]: "61790",
   [Nonicons.Graph_16]: "61791",
+  [Nonicons.GraphBarHorizontal_16]: "62108",
+  [Nonicons.GraphBarVertical_16]: "62109",
   [Nonicons.Graphql_16]: "61994",
   [Nonicons.Hash_16]: "61977",
   [Nonicons.Heading_16]: "61792",
@@ -1295,6 +1499,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.HeartFill_16]: "61794",
   [Nonicons.History_16]: "61795",
   [Nonicons.Home_16]: "61796",
+  [Nonicons.HomeFill_16]: "62110",
   [Nonicons.HorizontalRule_16]: "61797",
   [Nonicons.Hourglass_16]: "61798",
   [Nonicons.Html_16]: "61799",
@@ -1302,6 +1507,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.IdBadge_16]: "62013",
   [Nonicons.Image_16]: "61801",
   [Nonicons.Inbox_16]: "61802",
+  [Nonicons.InboxFill_16]: "62111",
   [Nonicons.Infinity_16]: "61803",
   [Nonicons.Info_16]: "61804",
   [Nonicons.Interface_16]: "61955",
@@ -1337,14 +1543,18 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Log_16]: "62015",
   [Nonicons.LogoGist_16]: "61824",
   [Nonicons.LogoGithub_16]: "61825",
+  [Nonicons.Loop_16]: "62112",
   [Nonicons.Lua_16]: "61826",
   [Nonicons.Mail_16]: "61827",
   [Nonicons.MarkGithub_16]: "61828",
   [Nonicons.Markdown_16]: "61829",
+  [Nonicons.Maximize_16]: "62113",
+  [Nonicons.Mcp_16]: "62114",
   [Nonicons.Megaphone_16]: "61830",
   [Nonicons.Mention_16]: "61831",
   [Nonicons.Meter_16]: "61832",
   [Nonicons.Milestone_16]: "61833",
+  [Nonicons.Minimize_16]: "62115",
   [Nonicons.Mirror_16]: "61834",
   [Nonicons.Moon_16]: "61835",
   [Nonicons.MortarBoard_16]: "61836",
@@ -1372,7 +1582,9 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Paperclip_16]: "62045",
   [Nonicons.PasskeyFill_16]: "62066",
   [Nonicons.Paste_16]: "61986",
+  [Nonicons.Pause_16]: "62116",
   [Nonicons.Pencil_16]: "61851",
+  [Nonicons.PencilAi_16]: "62117",
   [Nonicons.People_16]: "61852",
   [Nonicons.Perl_16]: "61853",
   [Nonicons.Person_16]: "61854",
@@ -1381,6 +1593,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Php_16]: "61855",
   [Nonicons.Pin_16]: "61856",
   [Nonicons.PinSlash_16]: "62067",
+  [Nonicons.PivotColumn_16]: "62118",
   [Nonicons.Play_16]: "61857",
   [Nonicons.Plug_16]: "61858",
   [Nonicons.Plus_16]: "61859",
@@ -1398,6 +1611,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.R_16]: "61866",
   [Nonicons.React_16]: "61867",
   [Nonicons.Read_16]: "62069",
+  [Nonicons.Redo_16]: "62119",
   [Nonicons.RelFilePath_16]: "62070",
   [Nonicons.Reply_16]: "61869",
   [Nonicons.Repo_16]: "61870",
@@ -1435,12 +1649,24 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.SkipFill_16]: "62050",
   [Nonicons.Sliders_16]: "62020",
   [Nonicons.Smiley_16]: "61896",
+  [Nonicons.SmileyFrown_16]: "62120",
+  [Nonicons.SmileyFrustrated_16]: "62121",
+  [Nonicons.SmileyGrin_16]: "62122",
+  [Nonicons.SmileyNeutral_16]: "62123",
   [Nonicons.Snippet_16]: "61957",
   [Nonicons.SortAsc_16]: "61987",
   [Nonicons.SortDesc_16]: "61988",
+  [Nonicons.Space_16]: "62124",
+  [Nonicons.SpacingLarge_16]: "62125",
+  [Nonicons.SpacingMedium_16]: "62126",
+  [Nonicons.SpacingSmall_16]: "62127",
+  [Nonicons.Sparkle_16]: "62128",
   [Nonicons.SparkleFill_16]: "62071",
+  [Nonicons.SparklesFill_16]: "62129",
+  [Nonicons.SplitView_16]: "62130",
   [Nonicons.SponsorTiers_16]: "62072",
   [Nonicons.Square_16]: "61897",
+  [Nonicons.SquareCircle_16]: "62131",
   [Nonicons.SquareFill_16]: "61898",
   [Nonicons.Squirrel_16]: "61899",
   [Nonicons.Stack_16]: "62021",
@@ -1454,6 +1680,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Svelte_16]: "61992",
   [Nonicons.Swift_16]: "61906",
   [Nonicons.Sync_16]: "61907",
+  [Nonicons.Tab_16]: "62132",
   [Nonicons.TabExternal_16]: "62022",
   [Nonicons.Table_16]: "61970",
   [Nonicons.Tag_16]: "61908",
@@ -1469,6 +1696,8 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Tmux_16]: "61915",
   [Nonicons.Toml_16]: "61916",
   [Nonicons.Tools_16]: "61917",
+  [Nonicons.TrackedByClosedCompleted_16]: "62133",
+  [Nonicons.TrackedByClosedNotPlanned_16]: "62134",
   [Nonicons.Trash_16]: "61950",
   [Nonicons.TriangleDown_16]: "61919",
   [Nonicons.TriangleLeft_16]: "61920",
@@ -1479,12 +1708,14 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Type_16]: "61959",
   [Nonicons.Typescript_16]: "61923",
   [Nonicons.Typography_16]: "61924",
+  [Nonicons.Undo_16]: "62135",
   [Nonicons.Unfold_16]: "61925",
   [Nonicons.Unlink_16]: "62074",
   [Nonicons.Unlock_16]: "61926",
   [Nonicons.Unmute_16]: "61927",
   [Nonicons.Unread_16]: "62075",
   [Nonicons.Unverified_16]: "61928",
+  [Nonicons.Unwrap_16]: "62136",
   [Nonicons.Upload_16]: "61929",
   [Nonicons.Variable_16]: "61960",
   [Nonicons.Verified_16]: "61930",
@@ -1502,6 +1733,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Vue_16]: "61940",
   [Nonicons.Webhook_16]: "62025",
   [Nonicons.Workflow_16]: "61941",
+  [Nonicons.Wrap_16]: "62137",
   [Nonicons.X_16]: "61942",
   [Nonicons.XCircle_16]: "61943",
   [Nonicons.XCircleFill_16]: "61944",

@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?dd6a9eceb15337a30ae28331587b6733") format("truetype"),
-url("./nonicons.woff?dd6a9eceb15337a30ae28331587b6733") format("woff");
+    src: url("./nonicons.ttf?ef2ab8c2b0a7c7e682348621cfbda30c") format("truetype"),
+url("./nonicons.woff?ef2ab8c2b0a7c7e682348621cfbda30c") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1163,4 +1163,178 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-turborepo-16:before {
     content: "\f27f";
+}
+.icon-agent-16:before {
+    content: "\f280";
+}
+.icon-ai-model-16:before {
+    content: "\f281";
+}
+.icon-bookmark-filled-16:before {
+    content: "\f282";
+}
+.icon-bookmark-slash-fill-16:before {
+    content: "\f283";
+}
+.icon-boolean-off-16:before {
+    content: "\f284";
+}
+.icon-boolean-on-16:before {
+    content: "\f285";
+}
+.icon-checkbox-fill-16:before {
+    content: "\f286";
+}
+.icon-comment-ai-16:before {
+    content: "\f287";
+}
+.icon-compose-16:before {
+    content: "\f288";
+}
+.icon-crosshairs-16:before {
+    content: "\f289";
+}
+.icon-dice-16:before {
+    content: "\f28a";
+}
+.icon-exclamation-16:before {
+    content: "\f28b";
+}
+.icon-feed-issue-closed-16:before {
+    content: "\f28c";
+}
+.icon-feed-issue-draft-16:before {
+    content: "\f28d";
+}
+.icon-feed-issue-open-16:before {
+    content: "\f28e";
+}
+.icon-feed-issue-reopen-16:before {
+    content: "\f28f";
+}
+.icon-feed-plus-16:before {
+    content: "\f290";
+}
+.icon-feed-public-16:before {
+    content: "\f291";
+}
+.icon-feed-pull-request-closed-16:before {
+    content: "\f292";
+}
+.icon-feed-pull-request-draft-16:before {
+    content: "\f293";
+}
+.icon-feed-pull-request-open-16:before {
+    content: "\f294";
+}
+.icon-file-check-16:before {
+    content: "\f295";
+}
+.icon-file-directory-symlink-16:before {
+    content: "\f296";
+}
+.icon-file-media-16:before {
+    content: "\f297";
+}
+.icon-filter-remove-16:before {
+    content: "\f298";
+}
+.icon-flowchart-16:before {
+    content: "\f299";
+}
+.icon-focus-center-16:before {
+    content: "\f29a";
+}
+.icon-git-branch-check-16:before {
+    content: "\f29b";
+}
+.icon-graph-bar-horizontal-16:before {
+    content: "\f29c";
+}
+.icon-graph-bar-vertical-16:before {
+    content: "\f29d";
+}
+.icon-home-fill-16:before {
+    content: "\f29e";
+}
+.icon-inbox-fill-16:before {
+    content: "\f29f";
+}
+.icon-loop-16:before {
+    content: "\f2a0";
+}
+.icon-maximize-16:before {
+    content: "\f2a1";
+}
+.icon-mcp-16:before {
+    content: "\f2a2";
+}
+.icon-minimize-16:before {
+    content: "\f2a3";
+}
+.icon-pause-16:before {
+    content: "\f2a4";
+}
+.icon-pencil-ai-16:before {
+    content: "\f2a5";
+}
+.icon-pivot-column-16:before {
+    content: "\f2a6";
+}
+.icon-redo-16:before {
+    content: "\f2a7";
+}
+.icon-smiley-frown-16:before {
+    content: "\f2a8";
+}
+.icon-smiley-frustrated-16:before {
+    content: "\f2a9";
+}
+.icon-smiley-grin-16:before {
+    content: "\f2aa";
+}
+.icon-smiley-neutral-16:before {
+    content: "\f2ab";
+}
+.icon-space-16:before {
+    content: "\f2ac";
+}
+.icon-spacing-large-16:before {
+    content: "\f2ad";
+}
+.icon-spacing-medium-16:before {
+    content: "\f2ae";
+}
+.icon-spacing-small-16:before {
+    content: "\f2af";
+}
+.icon-sparkle-16:before {
+    content: "\f2b0";
+}
+.icon-sparkles-fill-16:before {
+    content: "\f2b1";
+}
+.icon-split-view-16:before {
+    content: "\f2b2";
+}
+.icon-square-circle-16:before {
+    content: "\f2b3";
+}
+.icon-tab-16:before {
+    content: "\f2b4";
+}
+.icon-tracked-by-closed-completed-16:before {
+    content: "\f2b5";
+}
+.icon-tracked-by-closed-not-planned-16:before {
+    content: "\f2b6";
+}
+.icon-undo-16:before {
+    content: "\f2b7";
+}
+.icon-unwrap-16:before {
+    content: "\f2b8";
+}
+.icon-wrap-16:before {
+    content: "\f2b9";
 }
