@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yamatsum/nonicons.git"
+    "url": "git+https://github.com/ya2s/nonicons.git"
   },
-  "author": "yamatsum",
+  "author": "ya2s",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yamatsum/nonicons/issues"
+    "url": "https://github.com/ya2s/nonicons/issues"
   },
-  "homepage": "https://github.com/yamatsum/nonicons#readme",
+  "homepage": "https://github.com/ya2s/nonicons#readme",
   "dependencies": {
     "fantasticon": "^2.0.0",
     "octicons": "github:primer/octicons#v19.21.1",
