@@ -1,6 +1,6 @@
 {
   "name": "nonicons",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "dependencies": {
     "fantasticon": "^2.0.0",
     "octicons": "github:primer/octicons#v19.21.1",
-    "oslllo-svg-fixer": "^2.2.0"
+    "oslllo-svg-fixer": "^6.0.1"
   }
 }
