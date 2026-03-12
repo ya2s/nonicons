@@ -4,6 +4,8 @@
 
 Nonicons are a set of SVG icons representing programming languages, designing & development tools.
 
+Nonicons are also available in Framer's Insert Panel. See the [Framer update](https://www.framer.com/updates/icon-set-nonicons).
+
 Nonicons are inspired by [Octicons](https://github.com/primer/octicons).
 
 ## Screenshot
