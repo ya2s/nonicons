@@ -265,6 +265,7 @@ export type NoniconsId =
   | "npm-16"
   | "number-16"
   | "organization-16"
+  | "oxc-16"
   | "package-16"
   | "package-dependencies-16"
   | "package-dependents-16"
@@ -701,6 +702,7 @@ export type NoniconsKey =
   | "Npm_16"
   | "Number_16"
   | "Organization_16"
+  | "Oxc_16"
   | "Package_16"
   | "PackageDependencies_16"
   | "PackageDependents_16"
@@ -1137,6 +1139,7 @@ export enum Nonicons {
   Npm_16 = "npm-16",
   Number_16 = "number-16",
   Organization_16 = "organization-16",
+  Oxc_16 = "oxc-16",
   Package_16 = "package-16",
   PackageDependencies_16 = "package-dependencies-16",
   PackageDependents_16 = "package-dependents-16",
@@ -1574,6 +1577,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Npm_16]: "61843",
   [Nonicons.Number_16]: "61949",
   [Nonicons.Organization_16]: "61845",
+  [Nonicons.Oxc_16]: "62138",
   [Nonicons.Package_16]: "61846",
   [Nonicons.PackageDependencies_16]: "61847",
   [Nonicons.PackageDependents_16]: "61848",

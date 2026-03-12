@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?d00063b223a8742558bc806c557417b2") format("truetype"),
-url("./nonicons.woff?d00063b223a8742558bc806c557417b2") format("woff");
+    src: url("./nonicons.ttf?e9e645432d6fad3fd88d5bc5d13024d3") format("truetype"),
+url("./nonicons.woff?e9e645432d6fad3fd88d5bc5d13024d3") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1337,4 +1337,7 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-wrap-16:before {
     content: "\f2b9";
+}
+.icon-oxc-16:before {
+    content: "\f2ba";
 }
